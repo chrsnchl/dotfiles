@@ -1,0 +1,15 @@
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+echo ".cfg" >> .gitignore
+git clone --bare <git-repo-url> $HOME/.cfg
+
+config config --local status.showUntrackedFiles no
+#config checkout
+#remove any offending files before checkout
+
+
+# config status
+# config add .vimrc
+# config commit -m "add vimrc"
+# config push
+
+#curl -Lks http://bit.do/cfg-install | /bin/bash
