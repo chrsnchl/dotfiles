@@ -1,9 +1,4 @@
-autocmd InsertLeave * write
-
 let mapleader = "\<Space>"
-
-execute pathogen#infect()
-colorscheme molokai
 syntax on
 filetype plugin indent on
 "--------Split Management-----------"
