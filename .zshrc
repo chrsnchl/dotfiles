@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/chris/.oh-my-zsh
+  export ZSH=/home/vagrant/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -92,4 +92,4 @@ alias z="cd .."
 alias nw="tmux neww -n"
 
 alias dyt="youtube-dl --extract-audio --audio-format mp3"
-alias config='/usr/bin/git --git-dir=/home/chris/.cfg/ --work-tree=/home/chris
+alias config='/usr/bin/git --git-dir=/home/vagrant/.cfg/ --work-tree=/home/vagrant
