@@ -1,9 +1,14 @@
+#install oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 echo ".cfg" >> .gitignore
 git clone --bare https://github.com/chrsnchl/dotfiles.git $HOME/.cfg
 
 config config --local status.showUntrackedFiles no
-#config checkout
+config checkout
 #remove any offending files before checkout
 
 
@@ -11,5 +16,3 @@ config config --local status.showUntrackedFiles no
 # config add .vimrc
 # config commit -m "add vimrc"
 # config push
-
-#curl -Lks http://bit.do/cfg-install | /bin/bash
