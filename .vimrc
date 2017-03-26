@@ -1,4 +1,9 @@
+"ctrlp fuzzy search
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 let mapleader = "\<Space>"
+execute pathogen#infect()
+colorscheme molokai
 syntax on
 filetype plugin indent on
 "--------Split Management-----------"
